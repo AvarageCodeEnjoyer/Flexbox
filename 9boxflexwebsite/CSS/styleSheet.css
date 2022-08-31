@@ -1,0 +1,101 @@
+* {
+    background-color: #85dcb8;
+}
+
+.body { 
+    width: 1200px;
+    margin-top: 0px;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 830px;
+    height: 600px;
+    justify-content: center;
+    margin-top: 50px;   
+}
+
+  .flexdiv {
+    display: flex;
+    flex: 0 0 auto;
+    margin: 10px;
+    width: 200px;
+}
+
+.flex-container>div {
+    display: flex;
+    background-color: #41b3a3;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    margin: 2px;
+    text-align: center;
+
+}
+
+.one {
+    height: 514px;
+}
+
+.two {
+    height: 66px;
+}
+
+.three {
+    height: 255px;
+}
+
+.four {
+    height: 325px;
+}
+
+.five {
+    height: 255px;
+}
+
+.six {
+    height: 255px;
+}
+
+.seven {
+    height: 66px;
+}
+
+.eight {
+    height: 514px;
+}
+
+.nine {
+    height: 66px;
+}
+
+@media  screen and (max-width: 700px) {
+    .body {
+        margin-left: 5%;
+    }
+    
+    .flex-container {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: stretch;
+        justify-content: flex-start;
+        margin-top: 50px;
+        width: 420px;
+        
+        
+        
+    }
+
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+       height: 400px;
+       justify-content: center;
+    }
+    
+}
+
+
+
+
+
